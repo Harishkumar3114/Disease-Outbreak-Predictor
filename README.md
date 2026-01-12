@@ -1,11 +1,10 @@
 # AI-Powered Spatiotemporal Disease Outbreak Predictor
 
-![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.1-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 > **A production-ready deep learning system that forecasts daily disease spread across 13,000+ locations using a hybrid LSTM-GNN architecture, deployed as a microservice on Kubernetes with GPU acceleration.**
 
@@ -46,4 +45,5 @@ graph LR
     end
     Model -- Prediction --> API
     API -- Response --> UI
+
 
