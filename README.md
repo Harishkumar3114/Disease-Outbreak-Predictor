@@ -1,4 +1,4 @@
-# 🦠 AI-Powered Spatiotemporal Disease Outbreak Predictor
+# AI-Powered Spatiotemporal Disease Outbreak Predictor
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.1-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Overview
+## Project Overview
 
 Predicting disease outbreaks requires understanding two critical dimensions: **Time** (historical trends) and **Space** (geographic spread). Traditional models often treat regions in isolation, missing the vital context of how outbreaks spill over from neighboring areas.
 
@@ -23,7 +23,7 @@ The result is a robust forecasting engine deployed via a modern MLOps pipeline, 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Hybrid Deep Learning:** Custom PyTorch architecture fusing LSTM temporal embeddings with Graph Convolutional Network (GCN) spatial embeddings.
 * **High-Performance Forecasting:** Achieved an **$R^2$ score of 0.882** and **MAE of 10.28 cases**, significantly outperforming baseline regression models.
@@ -33,7 +33,7 @@ The result is a robust forecasting engine deployed via a modern MLOps pipeline, 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system follows a microservice architecture pattern:
 
@@ -46,3 +46,4 @@ graph LR
     end
     Model -- Prediction --> API
     API -- Response --> UI
+
